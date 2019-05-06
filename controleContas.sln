@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "controleContas", "controleContas\controleContas.csproj", "{5A8CA2B4-AA1D-4C74-A08F-832FB1D0423B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "empresa", "empresa\empresa.csproj", "{8DB541BA-08BC-41FA-858B-35C41A318B4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "controleBancario", "3c-controleContas\controleBancario.csproj", "{178D15BD-6174-4748-9322-930668FB9AEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A8CA2B4-AA1D-4C74-A08F-832FB1D0423B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A8CA2B4-AA1D-4C74-A08F-832FB1D0423B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A8CA2B4-AA1D-4C74-A08F-832FB1D0423B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A8CA2B4-AA1D-4C74-A08F-832FB1D0423B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DB541BA-08BC-41FA-858B-35C41A318B4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DB541BA-08BC-41FA-858B-35C41A318B4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DB541BA-08BC-41FA-858B-35C41A318B4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DB541BA-08BC-41FA-858B-35C41A318B4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{178D15BD-6174-4748-9322-930668FB9AEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{178D15BD-6174-4748-9322-930668FB9AEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{178D15BD-6174-4748-9322-930668FB9AEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{178D15BD-6174-4748-9322-930668FB9AEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
