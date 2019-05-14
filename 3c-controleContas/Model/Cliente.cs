@@ -1,5 +1,6 @@
 ﻿using System;
-namespace controleBancario
+namespace Model
+
 {
     public class Cliente
     {

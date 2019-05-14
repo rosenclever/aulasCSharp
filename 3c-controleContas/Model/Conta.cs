@@ -1,5 +1,5 @@
 ﻿using System;
-namespace controleBancario
+namespace Model
 {
     public class Conta
     {
@@ -40,7 +40,7 @@ namespace controleBancario
             Saldo += valor;
         }
 
-        public bool Sacar(double valor)
+        public virtual bool Sacar(double valor)
         {
             valor += 0.10;
             if(Saldo > valor)
