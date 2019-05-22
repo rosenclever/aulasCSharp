@@ -37,6 +37,9 @@ namespace controleBancario
             }
             Console.WriteLine("Saldo da conta comum: " + contaComum.ConsultarSaldo());
 
+            //Conta conta = new Conta(ana);
+
+            Console.WriteLine("O total de contas criadas foi " + Conta.TotalContas);
             Console.ReadLine();
         }
     }

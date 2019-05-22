@@ -40,5 +40,10 @@ namespace Model
                 return true;
             }
         }
+
+        public override void Depositar(double valor)
+        {
+            Saldo += valor;
+        }
     }
 }

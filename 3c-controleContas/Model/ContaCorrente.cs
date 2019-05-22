@@ -5,6 +5,12 @@ namespace Model
     {
         public ContaCorrente(Cliente titular) : base(titular)
         {
+
+        }
+
+        public override void Depositar(double valor)
+        {
+            Saldo += valor;
         }
 
         internal double ConsultarSaldo()

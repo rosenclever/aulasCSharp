@@ -1,20 +1,27 @@
 ﻿using System;
 namespace Model
 {
-    public class Conta
+    public abstract class Conta
     {
         private long _numero;
+
+        public static  int TotalContas { get; protected set; }
+
         protected double Saldo { get; set; }
         protected Cliente Titular { get; set; }
-
-        public Conta(double saldo)
-        {
-            Saldo = saldo;
-        }
 
         public Conta(Cliente titular)
         {
             Titular = titular;
+            Saldo = 10.0;
+            TotalContas++;
+        }
+
+        public Conta(Cliente titular, double saldo)
+        {
+            Titular = titular;
+            Saldo = saldo;
+            TotalContas++;
         }
 
         public long Numero
@@ -35,10 +42,7 @@ namespace Model
         }
 
 
-        public void Depositar(double valor)
-        {
-            Saldo += valor;
-        }
+        public abstract void Depositar(double valor);
 
         public virtual bool Sacar(double valor)
         {
